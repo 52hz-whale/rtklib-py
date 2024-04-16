@@ -12,20 +12,21 @@ trace_level = 3  # debug trace level
 basepos = []  # default to not specified here
 
 ######## specify input files ######################################
+os.chdir(r'C:\Users\whale\Desktop\rtklib-py\src')
 
 # cell phone example from 2021 Google Smartphone Decimeter Challenge
-# datadir = r'C:\gps\python\rtklib-py\data\phone'
-# navfile = 'nav_1350.nav'
-# rovfile = 'Pixel4_GnssLog.obs'
-# basefile = 'slac1350.obs'
-# cfgfile = 'config_phone.py' # must be in src folder or absolute path
+datadir = r'C:\Users\whale\Desktop\rtklib-py\data\phone'
+navfile = 'nav_1350.nav'
+rovfile = 'Pixel4_GnssLog.obs'
+basefile = 'slac1350.obs'
+cfgfile = 'config_phone.py' # must be in src folder or absolute path
 
 # u-blox example
-datadir = '../data/u-blox'
-navfile = 'rover.nav'
-rovfile = 'rover.obs'
-basefile = 'tmg23590.obs'
-cfgfile = 'config_f9p.py'  # must be in src folder or absolute path
+# datadir = r'C:\Users\whale\Desktop\rtklib-py\data\u-blox'
+# navfile = 'rover.nav'
+# rovfile = 'rover.obs'
+# basefile = 'tmg23590.obs'
+# cfgfile = 'config_f9p.py'  # must be in src folder or absolute path
 
 ###################################################################
 
